@@ -55,7 +55,7 @@ void bubleSortArray()
 void display()
 {
     cout << "\n===============================================\n";
-    cout << "      Data Array Setelah Diurutkan (Asc)        \n";
+    cout << "             Data Array Setelah Diurutkan (Asc)\n";
     cout << "===============================================\n";
 
     for (int j = 0; j < nPanjang; j++)
@@ -67,4 +67,18 @@ void display()
         }
     }
     cout << endl;
+}
+
+void binarySearch()
+{
+    char ulang;
+    do
+    {
+      cout << "\n=============================================\n";
+      cout << "           pencarian Binary Search             \n";
+      cout << "===============================================\n";
+
+      cout << "Masukkan element yang ingin dicari: ";
+      cin >> x;
+    } while (ulang == 'y' || ulang == 'Y');
 }
