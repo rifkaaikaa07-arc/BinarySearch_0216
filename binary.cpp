@@ -51,3 +51,10 @@ void bubleSortArray()
         pass++;
     } while (pass <= nPanjang - 1);
 }
+
+void display()
+{
+    cout << "\n===============================================\n";
+    cout << "      Data Array Setelah Diurutkan (Asc)        \n";
+    cout << "===============================================\n";
+}
