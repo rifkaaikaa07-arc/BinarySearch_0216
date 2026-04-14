@@ -106,6 +106,14 @@ void binarySearch()
 
       } while (low <= high);
 
+      if (low > high)
+      {
+        cout << "\n [x] Element " << x << " tidak diemukan dalam array.\n";
+      }
+
+      cout << "\nIngin mencari lagi? (y/n) :";
+      cin >> ulang;
+
     } while (ulang == 'y' || ulang == 'Y');
     
 }
